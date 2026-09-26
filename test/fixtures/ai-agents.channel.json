@@ -1,0 +1,22 @@
+{
+  "format": "channel-v1",
+  "slug": "ai-agents",
+  "name": "AI agents this week",
+  "topic": "AI agents: software that acts on its own with language models, the products that ship them, the research, the security incidents and the businesses around them",
+  "audience": "developers and product people who build with or buy AI agents",
+  "sources": [
+    { "kind": "feed", "name": "TechCrunch AI", "url": "https://techcrunch.com/category/artificial-intelligence/feed/" },
+    { "kind": "feed", "name": "TechCrunch", "url": "https://techcrunch.com/feed/" },
+    { "kind": "feed", "name": "The Verge AI", "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml" },
+    { "kind": "feed", "name": "Ars Technica AI", "url": "https://arstechnica.com/ai/feed/" }
+  ],
+  "rubric": {
+    "counts_as_news": "agent products and model releases, acquisitions and funding, research results, security incidents involving agents, regulation, and customer results with numbers",
+    "leave_out": "event promotions, webinars, listicles, and a vendor's own marketing with no news in it",
+    "prefer": "stories several independent sources covered"
+  },
+  "how_many": 10,
+  "window_days": 7,
+  "run_by": "AgentMesh",
+  "formats": ["video"]
+}

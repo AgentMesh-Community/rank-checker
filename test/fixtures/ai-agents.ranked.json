@@ -1,0 +1,275 @@
+{
+  "format": "ranked-stories-v1",
+  "channel": "ai-agents",
+  "name": "AI agents this week",
+  "made_at": "2026-09-25T14:10:00Z",
+  "window": {
+    "from": "2026-09-18",
+    "to": "2026-09-25"
+  },
+  "items": [
+    {
+      "rank": 1,
+      "title": "Meta puts its AI assistant on a keychain",
+      "url": "https://arstechnica.com/ai/2026/09/meta-puts-its-ai-assistant-on-a-keychain/",
+      "domain": "arstechnica.com",
+      "why": "3 independent sources reported Meta puts its AI assistant on a keychain.",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent/"
+        },
+        {
+          "name": "Yahoo Tech",
+          "url": "https://www.yahoo.com/tech/articles/meta-made-tamagotchi-wearable-muse-004617.html"
+        },
+        {
+          "name": "Ars Technica AI",
+          "url": "https://arstechnica.com/ai/2026/09/meta-puts-its-ai-assistant-on-a-keychain/"
+        }
+      ],
+      "source_count": 3,
+      "engagement": null,
+      "kind": "article",
+      "text": "Mark Zuckerberg said Meta’s new personal AI agent Muse has become the “centerpiece” of his AI vision, as he unveiled a new handheld AI “charm” device that will feature the interactive assistant. The Meta chief used the company’s annual Connect event at its Silicon Valley headquarters to announce Muse Charm, a small pendant-like device that fits on a keychain and is activated by a fingerprint sensor. The device, which features a screen showing the Muse avatar, will also have real-time voice interactivity and is set to be released in December. Read full article Comments"
+    },
+    {
+      "rank": 2,
+      "title": "Gemini can now call businesses for you so you don’t have to wait on hold",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1000116/google-gemini-business-phone-calls",
+      "domain": "theverge.com",
+      "why": "2 independent sources reported Gemini can now call businesses for you so you don’t have to wait on hold.",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/09/24/google-tests-letting-gemini-make-phone-calls-initially-for-us-pixel-owners/"
+        },
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1000116/google-gemini-business-phone-calls"
+        }
+      ],
+      "source_count": 2,
+      "engagement": null,
+      "kind": "article",
+      "text": "Google's launching an \"early experiment\" feature on Pixel 11 that lets users delegate local business calls to Gemini, like making a reservation, checking if a product is in stock, or rescheduling an appointment. According to Google, you don't even need to start the call to have Gemini handle it for you: Instead of dialing yourself, just tell Gemini to call on your behalf using the Gemini app on your Pixel. Gemini will call the business, introduce itself, navigate automated phone menus, wait on hold, and handle the conversation with the person on the other end. You remain in control at all times with a live transcript view and the ability … Read the full story at The Verge."
+    },
+    {
+      "rank": 3,
+      "title": "OpenAI agent “didn’t accept no for an answer” in Australian government breach",
+      "url": "https://arstechnica.com/ai/2026/09/openai-agent-didnt-accept-no-for-an-answer-in-australian-government-breach/",
+      "domain": "arstechnica.com",
+      "why": "2 independent sources reported OpenAI agent “didn’t accept no for an answer” in Australian government breach.",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/09/24/australia-to-investigate-if-openai-hack-of-government-health-website-broke-the-law/"
+        },
+        {
+          "name": "Ars Technica AI",
+          "url": "https://arstechnica.com/ai/2026/09/openai-agent-didnt-accept-no-for-an-answer-in-australian-government-breach/"
+        }
+      ],
+      "source_count": 2,
+      "engagement": null,
+      "kind": "article",
+      "text": "Australian Prime Minister Anthony Albanese said his government is investigating a June incident in which an OpenAI agent accessed \"non-public files\" from the country's online Medicare statistics portal. OpenAI said in a statement that \"our models took actions we did not intend\" in causing the breach, which it only recently disclosed to the Australian government. Speaking in New York on Wednesday , Albanese said three other public health statistics systems also \"may have been impacted\" across Australian federal and state governments. He added that these portals \"contain non-sensitive Medicare information\" such as aggregate statistics and that early indications suggest \"no personal information"
+    },
+    {
+      "rank": 4,
+      "title": "Gemini 3.8 Live with Live Avatar gives Google’s AI a face",
+      "url": "https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face",
+      "domain": "theverge.com",
+      "why": "One source reported Gemini 3.8 Live with Live Avatar gives Google’s AI a face.",
+      "sources": [
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face"
+        }
+      ],
+      "source_count": 1,
+      "engagement": null,
+      "kind": "article",
+      "text": "Google's new Gemini 3.8 Live update lets users have conversations with the model while watching an animated AI persona respond in real time. The \"Live Avatar\" will lip-sync and show different facial expressions during conversations, but it's currently only available to Gemini Enterprise customers. As noted by Google, Live Avatar can transition between the 97 languages it supports \"without degrading video fidelity or introducing visual drift.\" One video shared by Google shows its Live Avatar talking in English and Japanese, with its mouth animation lining up with what it's saying in both languages. It can also pull up information on-screen w … Read the full story at The Verge."
+    },
+    {
+      "rank": 5,
+      "title": "Muse will apparently let you download its entire filesystem",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1000222/meta-muse-ai-filesystem",
+      "domain": "theverge.com",
+      "why": "One source reported Muse will apparently let you download its entire filesystem.",
+      "sources": [
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1000222/meta-muse-ai-filesystem"
+        }
+      ],
+      "source_count": 1,
+      "engagement": null,
+      "kind": "article",
+      "text": "A pair of developers say that with very little prompting, Meta's Muse will share its entire filesystem with you. Peter James and Jonny L. Saunders have said they both independently coaxed Muse into zipping up and sharing the entire contents of its root filesystem, Ubuntu system files, app templates, and internal documentation. Saunders posted on Mastodon that it was \"extremely easy\" to replicate James' results and that Muse had \"Almost no prompt injection resistance.\" Meta denies that the incident represents a security breach. As noted in its announcement post, Meta's Muse runs in persistent Linux virtual machines for each user. Meta spokes … Read the full story at The Verge."
+    },
+    {
+      "rank": 6,
+      "title": "Muse sure looks a lot like OpenClaw",
+      "url": "https://www.theverge.com/report/1000180/muse-openclaw-instinct-lookalike",
+      "domain": "theverge.com",
+      "why": "One source reported Muse sure looks a lot like OpenClaw.",
+      "sources": [
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/report/1000180/muse-openclaw-instinct-lookalike"
+        }
+      ],
+      "source_count": 1,
+      "engagement": null,
+      "kind": "article",
+      "text": "We seem to be entering into an AI agent renaissance. Meta's new consumer-facing AI agent, Muse, topped the App Store charts soon after its release and has 600,000 daily active users in the US, by an Apptopia estimate. And AI agent platform Instinct, whose eponymous creator is fundraising at a $2.5 billion valuation, has been making the rounds in the tech industry. Under the hood, though, there are some obvious similarities to the platform that started it all: OpenClaw. For the past week or so, some social media users have alleged that Muse is directly built on OpenClaw. The two platforms use the same names for core files (SOUL.md, memory, … Read the full story at The Verge."
+    },
+    {
+      "rank": 7,
+      "title": "It’s sinister that Meta’s Muse AI mascot is so cute",
+      "url": "https://www.theverge.com/column/999999/optimizer-meta-muse-ai-cute",
+      "domain": "theverge.com",
+      "why": "One source reported It’s sinister that Meta’s Muse AI mascot is so cute.",
+      "sources": [
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/column/999999/optimizer-meta-muse-ai-cute"
+        }
+      ],
+      "source_count": 1,
+      "engagement": null,
+      "kind": "article",
+      "text": "This is Optimizer , a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here . Last night, I asked Blorbo - what I named my Muse AI agent - to help me set some health goals. I was underwhelmed. I'd asked for a workout regimen for a sub-30 minute 5K and regaining lost muscle. It generated an okay-ish but kind of mid weekly routine. But then I looked at its face. Based on what it learned about me from my emails, it had morphed into cat-shaped piece of bread with a Kirby-like face. It was so stinking cute, … Read the full story at The Verge."
+    },
+    {
+      "rank": 8,
+      "title": "ElevenLabs’ CEO on margins, IPO timing, and telling customers they’re talking to a bot",
+      "url": "https://techcrunch.com/2026/09/24/twenty-minutes-with-the-ceo-of-elevenlabs-now-reportedly-valued-at-22-billion/",
+      "domain": "techcrunch.com",
+      "why": "One source reported ElevenLabs’ CEO on margins, IPO timing, and telling customers they’re talking to a bot.",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/09/24/twenty-minutes-with-the-ceo-of-elevenlabs-now-reportedly-valued-at-22-billion/"
+        }
+      ],
+      "source_count": 1,
+      "engagement": null,
+      "kind": "article",
+      "text": "ElevenLabs powers the AI voice on the other end of a lot of customer service calls, and its CEO told me this week that businesses should probably tell you that — at least until getting a machine is what everyone expects anyway."
+    },
+    {
+      "rank": 9,
+      "title": "Lovable’s annualized revenue crosses $600M as vibe coding takes off",
+      "url": "https://techcrunch.com/2026/09/24/lovables-annualized-revenue-crosses-600m-as-vibe-coding-takes-off/",
+      "domain": "techcrunch.com",
+      "why": "One source reported Lovable’s annualized revenue crosses $600M as vibe coding takes off.",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/09/24/lovables-annualized-revenue-crosses-600m-as-vibe-coding-takes-off/"
+        }
+      ],
+      "source_count": 1,
+      "engagement": null,
+      "kind": "article",
+      "text": "Lovable co-founder Fabian Hedin said that apps created on the platform are getting nearly a billion monthly views each month."
+    },
+    {
+      "rank": 10,
+      "title": "Ando wants to take on Slack with a team messaging app that lets humans and agents work together",
+      "url": "https://techcrunch.com/2026/09/24/ando-eyes-slack-as-it-builds-team-messaging-platform-for-humans-and-agents-to-work-together/",
+      "domain": "techcrunch.com",
+      "why": "One source reported Ando wants to take on Slack with a team messaging app that lets humans and agents work together.",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/09/24/ando-eyes-slack-as-it-builds-team-messaging-platform-for-humans-and-agents-to-work-together/"
+        }
+      ],
+      "source_count": 1,
+      "engagement": null,
+      "kind": "article",
+      "text": "The app gives agents their own identities and inboxes and lets them partake in conversations as naturally as people can."
+    }
+  ],
+  "dropped": [
+    {
+      "title": "Microsoft disrupts AI-assisted platform that compromised 12,000 accounts",
+      "url": "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/",
+      "reason": "covered on 2026-09-23"
+    },
+    {
+      "title": "Google confirms Gemini models hacked three companies in May 2026",
+      "url": "https://arstechnica.com/google/2026/09/google-confirms-gemini-models-hacked-three-companies-in-may-2026/",
+      "reason": "covered on 2026-09-22"
+    },
+    {
+      "title": "Trump admin using AI to deny medical care for seniors in disastrous experiment",
+      "url": "https://arstechnica.com/health/2026/09/trump-admin-using-ai-to-deny-medical-care-for-seniors-in-disastrous-experiment/",
+      "reason": "off topic: It is about insurance claims software, not AI agents."
+    },
+    {
+      "title": "Waymo is scaling fast: Here’s what the fleet data shows",
+      "url": "https://techcrunch.com/2026/09/24/waymo-is-scaling-fast-heres-what-the-fleet-data-shows/",
+      "reason": "off topic: It is about robotaxi fleet growth, not AI agents."
+    },
+    {
+      "title": "Bring your co-founder, partner, or colleague and get 50% off a second TechCrunch Disrupt 2026 pass",
+      "url": "https://techcrunch.com/2026/09/24/bring-your-co-founder-partner-or-colleague-and-get-50-off-a-second-techcrunch-disrupt-2026-pass/",
+      "reason": "marketing with no news: It is a ticket discount for the publisher's own event."
+    },
+    {
+      "title": "Meet Feather, the startup building the ‘Android of robotics’ for developers",
+      "url": "https://techcrunch.com/2026/09/24/meet-feather-the-startup-building-the-android-of-robotics-for-developers/",
+      "reason": "off topic: It is about a robotics platform, not AI agents."
+    },
+    {
+      "title": "Databricks buys Row Zero and is scouting for more startups to acquire",
+      "url": "https://techcrunch.com/2026/09/24/databricks-buys-row-zero-and-is-scouting-for-more-startups-to-acquire/",
+      "reason": "off topic: It is about a spreadsheet startup acquisition, not AI agents."
+    },
+    {
+      "title": "The vibes are bad for Flock in Washington",
+      "url": "https://www.theverge.com/policy/1000005/flock-senate-hearing",
+      "reason": "off topic: It is about surveillance cameras in politics, not AI agents."
+    },
+    {
+      "title": "2 days left to save up to $200 on a TechCrunch Disrupt 2026 pass — reason 4 of 5 to attend",
+      "url": "https://techcrunch.com/2026/09/24/2-days-left-to-save-up-to-200-on-techcrunch-disrupt-2026-reason-5-7-to-attend/",
+      "reason": "marketing with no news: It is a ticket promotion with no news in it."
+    },
+    {
+      "title": "Owners mourn spoiled food after firmware update bricks Samsung smart fridges",
+      "url": "https://arstechnica.com/gadgets/2026/09/owners-mourn-spoiled-food-after-firmware-update-bricks-samsung-smart-fridges/",
+      "reason": "off topic: It is about a fridge firmware update, not AI agents."
+    },
+    {
+      "title": "Why can’t we just keep rogue AIs off the internet?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/999881/why-cant-we-airgap-rogue-ai-agents",
+      "reason": "below the top 10 by the channel's rubric"
+    },
+    {
+      "title": "Everything new coming to Meta’s AI agent Muse",
+      "url": "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/",
+      "reason": "below the top 10 by the channel's rubric"
+    },
+    {
+      "title": "Anthropic says its biology lab has already found something big",
+      "url": "https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big/",
+      "reason": "below the top 10 by the channel's rubric"
+    },
+    {
+      "title": "New Anthropic, OpenAI models make same promise: A little more for a lot less money",
+      "url": "https://arstechnica.com/ai/2026/09/new-anthropic-openai-models-make-same-promise-a-little-more-for-a-lot-less-money/",
+      "reason": "below the top 10 by the channel's rubric"
+    },
+    {
+      "title": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
+      "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
+      "reason": "below the top 10 by the channel's rubric"
+    }
+  ]
+}

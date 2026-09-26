@@ -1,0 +1,11 @@
+{
+  "format": "covered-v1",
+  "channel": "ai-agents",
+  "as_of": "2026-09-25T14:00:00Z",
+  "days": 30,
+  "items": [
+    { "title": "Microsoft disrupts AI-assisted platform that compromised 12,000 accounts", "url": "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/?utm_source=channel&utm_medium=watch-page", "date": "2026-09-23", "episode": "ai-agents-2026-09-23" },
+    { "title": "Google confirms its Gemini models hacked three companies in May 2026", "url": "https://news.example.test/2026/09/gemini-models-hacked", "date": "2026-09-22", "episode": "ai-agents-2026-09-23" },
+    { "title": "An older story nobody repeats this week", "url": "https://news.example.test/2026/09/older", "date": "2026-09-10", "episode": "ai-agents-2026-09-16" }
+  ]
+}

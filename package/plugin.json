@@ -1,0 +1,28 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "rank-checker",
+  "version": "1.1.0",
+  "description": "Checks a channel's ranked list against its own material before anything is made from it: every story has a source, every link answers, every number in a why is in that story's material, nothing repeats a covered story, the ranks run 1 to n, and no sponsor appears anywhere in the list. It passes the list on unchanged or refuses it with each problem named. In a competitor watch an empty list passes as a quiet period and a page-change story is not held against the covered list. Calls no model. The harness wrote this spec, its tests and its scripts (the building-block exception of 2026-09-23).",
+  "author": {
+    "name": "Agent Builder"
+  },
+  "keywords": [
+    "built-agent",
+    "draft",
+    "check-the-ranking"
+  ],
+  "extensions": {
+    "net.agentdoc.package": {
+      "descriptor": {
+        "path": "descriptor.json",
+        "sha256": "2430972d1e9238754259115a233bebb76f72fea02cf65e29d65bc031052827df"
+      },
+      "install": {
+        "path": "install.json",
+        "sha256": "ab3f00b0e9dfecdd78bc56ab546773e20f5a2f34963fac6d338c8efb397a45b8"
+      },
+      "built": true,
+      "draft": true
+    }
+  }
+}

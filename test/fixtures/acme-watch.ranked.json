@@ -1,0 +1,135 @@
+{
+  "format": "ranked-stories-v1",
+  "channel": "acme-competitors",
+  "name": "Acme competitor brief",
+  "made_at": "2026-09-24T14:05:00Z",
+  "window": {
+    "from": "2026-09-23",
+    "to": "2026-09-24"
+  },
+  "quiet": false,
+  "items": [
+    {
+      "rank": 1,
+      "title": "Microsoft 365 Copilot pricing changed",
+      "url": "https://example.com/copilot/pricing",
+      "domain": "example.com",
+      "why": "A plan for small businesses now appears, and small sales teams are the customers Acme sells to.",
+      "sources": [
+        {
+          "name": "Microsoft 365 Copilot pricing",
+          "url": "https://example.com/copilot/pricing"
+        }
+      ],
+      "source_count": 1,
+      "engagement": null,
+      "kind": "page-change",
+      "text": "Added: Microsoft 365 Copilot Business, a plan for businesses with up to 300 users, at $21 per user per month. Removed: nothing. Prices before: $30 per user per month; $360 per user per year. Prices after: $30 per user per month; $21 per user per month; $360 per user per year.",
+      "target": "t1",
+      "also": [],
+      "signal": "pricing"
+    },
+    {
+      "rank": 2,
+      "title": "Gemini adds a connector for a CRM that sales teams use",
+      "url": "https://example.com/keyword/gemini-crm-connector",
+      "domain": "example.com",
+      "why": "It puts Gemini inside the tool Acme's customers work in all day.",
+      "sources": [
+        {
+          "name": "The Keyword",
+          "url": "https://example.com/keyword/gemini-crm-connector"
+        },
+        {
+          "name": "a trade publication on AI tools",
+          "url": "https://example.org/ai-news/gemini-crm-connector"
+        },
+        {
+          "name": "the CRM maker's newsroom",
+          "url": "https://example.net/newsroom/gemini-connector"
+        }
+      ],
+      "source_count": 3,
+      "engagement": null,
+      "kind": "article",
+      "text": "Google said Gemini for Workspace can now read and update records in a CRM that sales teams use, from Gmail and Docs, without switching tabs. The connector is open to Workspace business customers from today. Microsoft 365 Copilot has offered a connector for the same CRM since the spring.",
+      "target": "t2",
+      "also": [
+        "t1"
+      ],
+      "signal": "partnership"
+    },
+    {
+      "rank": 3,
+      "title": "GitHub Copilot's release notes add an agent for pull requests",
+      "url": "https://example.com/changelog/copilot/agent-for-pull-requests",
+      "domain": "example.com",
+      "why": "It is the first Copilot feature that acts on its own, which Acme's roadmap also plans.",
+      "sources": [
+        {
+          "name": "GitHub Copilot release notes",
+          "url": "https://example.com/changelog/copilot/agent-for-pull-requests"
+        }
+      ],
+      "source_count": 1,
+      "engagement": null,
+      "kind": "release",
+      "text": "GitHub Copilot can now be given a pull request to review: the new agent reads the change, runs the tests and leaves its comments on its own. It is in public preview for Copilot Business and Copilot Enterprise.",
+      "target": "t1",
+      "also": [],
+      "signal": "launch"
+    },
+    {
+      "rank": 4,
+      "title": "Gemini API adds a faster model for short answers",
+      "url": "https://example.com/ai-news/gemini-api-faster-model",
+      "domain": "example.com",
+      "why": "It lowers the cost of the assistant features Acme competes with.",
+      "sources": [
+        {
+          "name": "a trade publication on AI tools",
+          "url": "https://example.com/ai-news/gemini-api-faster-model"
+        }
+      ],
+      "source_count": 1,
+      "engagement": null,
+      "kind": "article",
+      "text": "Google added a smaller Gemini API model for short answers, priced below its current models and answering in about half the time. It is meant for assistants that answer many small questions a day.",
+      "target": "t2",
+      "also": [],
+      "signal": "launch"
+    },
+    {
+      "rank": 5,
+      "title": "A Copilot session at Microsoft's partner conference in October",
+      "url": "https://example.com/m365/blog/partner-conference-copilot-session",
+      "domain": "example.com",
+      "why": "Partners will hear the small business pitch first there.",
+      "sources": [
+        {
+          "name": "Microsoft 365 Blog",
+          "url": "https://example.com/m365/blog/partner-conference-copilot-session"
+        }
+      ],
+      "source_count": 1,
+      "engagement": null,
+      "kind": "article",
+      "text": "Microsoft will hold a Copilot session at its partner conference in October, on selling Microsoft 365 Copilot to small businesses. Partners can sign up to attend in person or online.",
+      "target": "t1",
+      "also": [],
+      "signal": "event"
+    }
+  ],
+  "dropped": [
+    {
+      "title": "Xbox adds a Copilot for game tips",
+      "url": "https://example.com/m365/blog/xbox-copilot-game-tips",
+      "reason": "about something this watch leaves out: Xbox"
+    },
+    {
+      "title": "Five ways to tidy your Outlook inbox",
+      "url": "https://example.com/m365/blog/tidy-outlook-inbox",
+      "reason": "not about Copilot at Microsoft"
+    }
+  ]
+}

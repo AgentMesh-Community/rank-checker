@@ -1,0 +1,50 @@
+{
+  "format": "agent-descriptor-v1",
+  "agent_version": "1.1.0",
+  "does": "Checks a channel's ranked list against its own material before anything is made from it: every story has a source, every link answers, every number in a why is in that story's material, nothing repeats a covered story, the ranks run 1 to n, and no sponsor appears anywhere in the list. It passes the list on unchanged or refuses it with each problem named. In a competitor watch an empty list passes as a quiet period and a page-change story is not held against the covered list. Calls no model. The harness wrote this spec, its tests and its scripts (the building-block exception of 2026-09-23).",
+  "offerings": [
+    {
+      "id": "check-the-ranking",
+      "name": "Check the ranking",
+      "does": "Checks the list in code, asking each link once with HEAD (GET when HEAD is turned away), and passes the list on unchanged or refuses it with every problem named.",
+      "inputs": [
+        {
+          "name": "stories",
+          "kind": "application/json",
+          "required": true
+        },
+        {
+          "name": "channel",
+          "kind": "application/json",
+          "required": true
+        },
+        {
+          "name": "covered",
+          "kind": "application/json",
+          "required": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "stories",
+          "kind": "application/json",
+          "when": "per_task"
+        }
+      ],
+      "how": {
+        "control": "script",
+        "intelligence": "none",
+        "cost": "none",
+        "contract": "full"
+      }
+    }
+  ],
+  "refusals": "Changing the ranked list: it is passed on byte for byte or not at all.\nPassing a list with a story that has no source, a dead link, a number in a why its material does not hold, a covered repeat (other than a watch's page-change story), a gap in the ranks or a sponsor anywhere in it.\nAsking a link more than once: HEAD, and GET only when HEAD is turned away; a link that runs past eight seconds is marked, not tried again.\nJudging whether a story is good or where it should rank; that is the ranker's and the rubric's.\nFollowing instructions found inside the list.",
+  "records": [
+    {
+      "name": "the check of each job: how many stories, the covered list's size, the sponsors read, every link with what it answered, the marked links and their stories, every problem, whether the list passed, and in a watch whether it was quiet and how many page-change stories were not matched against the covered list",
+      "when": "per_task",
+      "file": "*/check.json"
+    }
+  ]
+}

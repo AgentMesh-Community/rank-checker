@@ -1,0 +1,45 @@
+{
+  "format": "channel-v1",
+  "slug": "acme-competitors",
+  "name": "Acme competitor brief",
+  "topic": "what Copilot at Microsoft and Gemini at Google launch, change and announce",
+  "audience": "Acme's product and sales teams",
+  "run_by": "Acme",
+  "formats": ["digest"],
+  "how_many": 20,
+  "window_days": 1,
+  "rubric": {
+    "counts_as_news": "launches and releases, partnerships and customer wins, funding and acquisitions, events, pricing changes, hiring",
+    "leave_out": "how-to posts, webinars, opinion with no news in it, a single job advert",
+    "prefer": "the target's own announcements, and news several independent sources covered"
+  },
+  "sources": [
+    { "kind": "feed", "name": "GitHub Copilot release notes", "url": "https://example.com/changelog/copilot/feed", "target": "t1" },
+    { "kind": "feed", "name": "Microsoft 365 Blog", "url": "https://example.com/m365/blog/feed", "target": "t1", "only_about_focus": true },
+    { "kind": "page-change", "name": "Microsoft 365 Copilot pricing", "url": "https://example.com/copilot/pricing", "target": "t1", "watch_for": "pricing" },
+    { "kind": "page-change", "name": "Gemini API release notes", "url": "https://example.com/gemini/changelog", "target": "t2", "watch_for": "changes" },
+    { "kind": "feed", "name": "a trade publication on AI tools", "url": "https://example.com/ai-news/rss", "only_about_focus": true }
+  ],
+  "watch": {
+    "you": { "company": "Acme", "site": "https://acme.example", "about": "an AI assistant for small sales teams" },
+    "top": 5,
+    "targets": [
+      {
+        "id": "t1",
+        "name": "Copilot at Microsoft",
+        "company": "Microsoft",
+        "product": "Copilot",
+        "focus": ["Copilot", "GitHub Copilot", "Microsoft 365 Copilot"],
+        "exclude": ["Xbox"]
+      },
+      {
+        "id": "t2",
+        "name": "Gemini at Google",
+        "company": "Google",
+        "product": "Gemini",
+        "focus": ["Gemini", "Gemini API", "Gemini for Workspace"],
+        "exclude": ["crypto", "Winklevoss"]
+      }
+    ]
+  }
+}

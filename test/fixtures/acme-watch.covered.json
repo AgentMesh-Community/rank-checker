@@ -1,0 +1,10 @@
+{
+  "format": "covered-v1",
+  "channel": "acme-competitors",
+  "as_of": "2026-09-24T14:00:00Z",
+  "days": 30,
+  "items": [
+    { "title": "Microsoft 365 Copilot pricing changed", "url": "https://example.com/copilot/pricing", "date": "2026-09-21" },
+    { "title": "Gemini for Workspace adds meeting notes in six languages", "url": "https://example.com/keyword/gemini-meeting-notes", "date": "2026-09-22" }
+  ]
+}
